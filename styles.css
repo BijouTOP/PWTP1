@@ -1,0 +1,28 @@
+Footer{
+    position: fixed; 
+    bottom: 0%;
+}
+.imgs{
+    display: block;
+    margin: auto;
+}
+.centerText{
+    text-align: center;
+}
+.buttonsIndex{
+    display: block;
+    margin: auto;
+    min-width: 20rem;
+}
+.homeButton{
+    margin-top: 2%;
+    margin-left: 2%;
+    min-width: 10rem;
+}
+.borderInput{
+    border-radius: 10px
+}
+:root{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif;
+}
