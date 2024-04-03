@@ -2,9 +2,17 @@ Footer{
     position: fixed; 
     bottom: 0%;
 }
+.imgs-profile{
+    float: left;
+    width: 10%;
+    margin-right: 2%;
+    margin-left: 10%;
+
+}
 .imgs{
     display: block;
     margin: auto;
+
 }
 .centerText{
     text-align: center;
@@ -19,9 +27,35 @@ Footer{
     margin-left: 2%;
     min-width: 10rem;
 }
+.profileButton{
+    margin-top: 1%;
+    margin-left: 65%;
+    min-width: 10rem;
+}
+.logoutButton{
+    margin-top: 1%;
+    margin-left: 1rem;
+    min-width: 10rem;
+}
 .borderInput{
     border-radius: 10px
 }
+.tableMargin{    
+    margin-top: 10%;
+}
+table {
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 :root{
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif;
